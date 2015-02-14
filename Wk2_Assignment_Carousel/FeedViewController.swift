@@ -1,18 +1,23 @@
 //
-//  ViewController.swift
+//  FeedViewController.swift
 //  Wk2_Assignment_Carousel
 //
-//  Created by Bryan Leung on 2/11/15.
+//  Created by Bryan Leung on 2/12/15.
 //  Copyright (c) 2015 Bryan Leung. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class FeedViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var feedImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        scrollView.contentSize = feedImage.frame.size
+        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +27,3 @@ class ViewController: UIViewController {
     
 
 }
-

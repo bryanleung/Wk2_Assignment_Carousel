@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72532CC1A8D57D600C9465D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72532CB1A8D57D600C9465D /* FeedViewController.swift */; };
+		D72532CE1A8D5A9C00C9465D /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72532CD1A8D5A9C00C9465D /* settingsViewController.swift */; };
+		D72532D01A8D5AA900C9465D /* conversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72532CF1A8D5AA900C9465D /* conversationViewController.swift */; };
+		D7590A351A8D83230044288E /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7590A341A8D83230044288E /* createAccountViewController.swift */; };
 		D7E7030F1A8C4FE6004488A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E7030E1A8C4FE6004488A5 /* AppDelegate.swift */; };
 		D7E703111A8C4FE6004488A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703101A8C4FE6004488A5 /* ViewController.swift */; };
 		D7E703141A8C4FE6004488A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E703121A8C4FE6004488A5 /* Main.storyboard */; };
 		D7E703161A8C4FE6004488A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E703151A8C4FE6004488A5 /* Images.xcassets */; };
 		D7E703191A8C4FE6004488A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E703171A8C4FE6004488A5 /* LaunchScreen.xib */; };
 		D7E703251A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703241A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.swift */; };
+		D7E703311A8D2A21004488A5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703301A8D2A21004488A5 /* Common.swift */; };
+		D7E703331A8D2A5B004488A5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703321A8D2A5B004488A5 /* IntroViewController.swift */; };
+		D7E703351A8D2FE9004488A5 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703341A8D2FE9004488A5 /* signInViewController.swift */; };
+		D7E703371A8D3D20004488A5 /* tutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E703361A8D3D20004488A5 /* tutorialsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72532CB1A8D57D600C9465D /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D72532CD1A8D5A9C00C9465D /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		D72532CF1A8D5AA900C9465D /* conversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationViewController.swift; sourceTree = "<group>"; };
+		D7590A341A8D83230044288E /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
 		D7E703091A8C4FE6004488A5 /* Wk2_Assignment_Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wk2_Assignment_Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E7030D1A8C4FE6004488A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E7030E1A8C4FE6004488A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +48,10 @@
 		D7E7031E1A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wk2_Assignment_CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E703231A8C4FE6004488A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E703241A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wk2_Assignment_CarouselTests.swift; sourceTree = "<group>"; };
+		D7E703301A8D2A21004488A5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../Desktop/Common.swift; sourceTree = "<group>"; };
+		D7E703321A8D2A5B004488A5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D7E703341A8D2FE9004488A5 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		D7E703361A8D3D20004488A5 /* tutorialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +93,20 @@
 		D7E7030B1A8C4FE6004488A5 /* Wk2_Assignment_Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				D7E703301A8D2A21004488A5 /* Common.swift */,
 				D7E7030E1A8C4FE6004488A5 /* AppDelegate.swift */,
 				D7E703101A8C4FE6004488A5 /* ViewController.swift */,
 				D7E703121A8C4FE6004488A5 /* Main.storyboard */,
 				D7E703151A8C4FE6004488A5 /* Images.xcassets */,
 				D7E703171A8C4FE6004488A5 /* LaunchScreen.xib */,
 				D7E7030C1A8C4FE6004488A5 /* Supporting Files */,
+				D7E703321A8D2A5B004488A5 /* IntroViewController.swift */,
+				D7E703341A8D2FE9004488A5 /* signInViewController.swift */,
+				D7E703361A8D3D20004488A5 /* tutorialsViewController.swift */,
+				D72532CB1A8D57D600C9465D /* FeedViewController.swift */,
+				D72532CD1A8D5A9C00C9465D /* settingsViewController.swift */,
+				D72532CF1A8D5AA900C9465D /* conversationViewController.swift */,
+				D7590A341A8D83230044288E /* createAccountViewController.swift */,
 			);
 			path = Wk2_Assignment_Carousel;
 			sourceTree = "<group>";
@@ -212,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E703371A8D3D20004488A5 /* tutorialsViewController.swift in Sources */,
+				D72532D01A8D5AA900C9465D /* conversationViewController.swift in Sources */,
 				D7E703111A8C4FE6004488A5 /* ViewController.swift in Sources */,
+				D7E703311A8D2A21004488A5 /* Common.swift in Sources */,
 				D7E7030F1A8C4FE6004488A5 /* AppDelegate.swift in Sources */,
+				D7E703331A8D2A5B004488A5 /* IntroViewController.swift in Sources */,
+				D7590A351A8D83230044288E /* createAccountViewController.swift in Sources */,
+				D7E703351A8D2FE9004488A5 /* signInViewController.swift in Sources */,
+				D72532CC1A8D57D600C9465D /* FeedViewController.swift in Sources */,
+				D72532CE1A8D5A9C00C9465D /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wk2_Assignment_Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wk2_Assignment_Carousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +439,7 @@
 				D7E7032A1A8C4FE6004488A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E7032B1A8C4FE6004488A5 /* Build configuration list for PBXNativeTarget "Wk2_Assignment_CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +448,7 @@
 				D7E7032D1A8C4FE6004488A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
