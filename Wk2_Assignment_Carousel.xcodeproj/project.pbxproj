@@ -48,7 +48,7 @@
 		D7E7031E1A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wk2_Assignment_CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E703231A8C4FE6004488A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E703241A8C4FE6004488A5 /* Wk2_Assignment_CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wk2_Assignment_CarouselTests.swift; sourceTree = "<group>"; };
-		D7E703301A8D2A21004488A5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../Desktop/Common.swift; sourceTree = "<group>"; };
+		D7E703301A8D2A21004488A5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		D7E703321A8D2A5B004488A5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		D7E703341A8D2FE9004488A5 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		D7E703361A8D3D20004488A5 /* tutorialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialsViewController.swift; sourceTree = "<group>"; };
