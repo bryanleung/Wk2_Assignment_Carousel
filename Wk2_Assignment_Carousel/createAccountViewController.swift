@@ -29,8 +29,9 @@ class createAccountViewController: UIViewController, UIScrollViewDelegate {
         originalButtonCenter = createAccountView.center.y
         screenHeight = screen.size.height
         
-        scrollView.contentSize = CGSize(width:320, height:568)
         scrollView.delegate = self
+        scrollView.contentSize = CGSize(width:320, height:499)
+        
         
 
         // Do any additional setup after loading the view.
@@ -72,9 +73,10 @@ class createAccountViewController: UIViewController, UIScrollViewDelegate {
         
         UIView.animateWithDuration(animationDuration, delay: 0.0, options: UIViewAnimationOptions(UInt(animationCurve << 16)), animations: {
             
+            self.scrollView.contentSize = CGSize(width:320, height:504)
             self.createAccountView.center.y = self.screenHeight - kbSize.height - 30
             
-            self.scrollView.center.y = 160
+            self.scrollView.center.y = 250
             
             
             }, completion: nil)
@@ -96,6 +98,7 @@ class createAccountViewController: UIViewController, UIScrollViewDelegate {
         UIView.animateWithDuration(animationDuration, delay: 0.0, options: UIViewAnimationOptions(UInt(animationCurve << 16)), animations: {
             
             
+            self.scrollView.contentSize = CGSize(width:320, height:499)
             self.scrollView.center.y = self.originalFormsCenter
             
             self.createAccountView.center.y = self.originalButtonCenter

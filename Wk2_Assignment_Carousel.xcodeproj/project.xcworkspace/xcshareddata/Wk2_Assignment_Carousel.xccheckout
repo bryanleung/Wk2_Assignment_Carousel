@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>313928A1-58A0-4F81-A396-8AE10708B7B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wk2_Assignment_Carousel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB71604DFD05C1E6CEFA1745E58F2A72CBC52A9E</key>
+		<string>https://github.com/bryanleung/Wk2_Assignment_Carousel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wk2_Assignment_Carousel.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB71604DFD05C1E6CEFA1745E58F2A72CBC52A9E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bryanleung/Wk2_Assignment_Carousel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB71604DFD05C1E6CEFA1745E58F2A72CBC52A9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB71604DFD05C1E6CEFA1745E58F2A72CBC52A9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Wk2_Assignment_Carousel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -21,14 +21,15 @@ class signInViewController: UIViewController, UIAlertViewDelegate, UIScrollViewD
     
     var originalScrollViewCenter: CGFloat!
     var originalSignInCenter: CGFloat!
-    //var originalInputFormsCenter: CGFloat!
+    var originalInputFormsCenter: CGFloat!
     var screen = UIScreen.mainScreen().bounds
     var screenHeight: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        inputFormsContainer.transform = CGAffineTransformMakeScale(0.5, 0.5)
         
-        scrollView.contentSize = CGSize(width:320, height:568)
+        scrollView.contentSize = CGSize(width:320, height:500)
         scrollView.delegate = self
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
@@ -37,8 +38,13 @@ class signInViewController: UIViewController, UIAlertViewDelegate, UIScrollViewD
         originalScrollViewCenter = scrollView.center.y
 
         originalSignInCenter = signInButtonsContainer.center.y
-        //originalInputFormsCenter = inputFormsContainer.center.y
+        originalInputFormsCenter = inputFormsContainer.center.y
         screenHeight = screen.size.height
+        
+        UIView.animateWithDuration(0.8, animations: { () -> Void in
+            self.inputFormsContainer.alpha = 1
+            self.inputFormsContainer.transform = CGAffineTransformMakeScale(1, 1)
+        })
         
     }
 
@@ -96,10 +102,11 @@ class signInViewController: UIViewController, UIAlertViewDelegate, UIScrollViewD
         
         UIView.animateWithDuration(animationDuration, delay: 0.0, options: UIViewAnimationOptions(UInt(animationCurve << 16)), animations: {
             
-            //self.scrollView.contentSize = CGSize(width:320, height:268)
-            self.scrollView.center.y -= 100
-            self.signInButtonsContainer.center.y = self.signInButtonsContainer.center.y - kbSize.height + 70
-            //self.inputFormsContainer.center.y = self.signInButtonsContainer.center.y - 160
+            //println(kbSize.height)
+            self.scrollView.contentSize = CGSize(width:320, height:504)
+            //self.scrollView.center.y = 130
+            self.signInButtonsContainer.center.y = self.screenHeight - kbSize.height - 125
+            self.inputFormsContainer.center.y = 50
             
             
             }, completion: nil)
@@ -120,10 +127,12 @@ class signInViewController: UIViewController, UIAlertViewDelegate, UIScrollViewD
         
         UIView.animateWithDuration(animationDuration, delay: 0.0, options: UIViewAnimationOptions(UInt(animationCurve << 16)), animations: {
             
+            self.scrollView.contentSize = CGSize(width:320, height:500)
+            //self.scrollView.frame.inset(dx: 0, dy: 0)
             self.scrollView.center.y = self.originalScrollViewCenter
             
             self.signInButtonsContainer.center.y = self.originalSignInCenter
-            //self.inputFormsContainer.center.y = self.originalInputFormsCenter
+            self.inputFormsContainer.center.y = self.originalInputFormsCenter
             
             }, completion: nil)
         
