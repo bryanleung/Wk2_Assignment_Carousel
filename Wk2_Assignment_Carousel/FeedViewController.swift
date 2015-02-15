@@ -12,6 +12,7 @@ class FeedViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var feedImage: UIImageView!
+    @IBOutlet weak var learnMorebanner: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,5 +26,12 @@ class FeedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func didPressbannerCloseButton(sender: AnyObject) {
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            self.feedImage.center.y -= 44
+            self.learnMorebanner.center.y -= 44
+            self.learnMorebanner.alpha = 0
+        })
+    }
 
 }
