@@ -34,12 +34,38 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     func updateViewTransformsWithOffset(offset: Float){
     }
     
+    func initialIntroOffset(){
+        introTile1.transform = CGAffineTransformTranslate(introTile1.transform, CGFloat(xOffsets[0]), CGFloat(yOffsets[0]))
+        introTile1.transform = CGAffineTransformScale(introTile1.transform, CGFloat(scales[0]), CGFloat(scales[0]))
+        introTile1.transform = CGAffineTransformRotate(introTile1.transform, CGFloat(Double(rotations[0]) * M_PI / 180))
+        
+        introTile2.transform = CGAffineTransformTranslate(introTile2.transform, CGFloat(xOffsets[1]), CGFloat(yOffsets[1]))
+        introTile2.transform = CGAffineTransformScale(introTile2.transform, CGFloat(scales[1]), CGFloat(scales[1]))
+        introTile2.transform = CGAffineTransformRotate(introTile2.transform, CGFloat(Double(rotations[1]) * M_PI / 180))
+        
+        introTile3.transform = CGAffineTransformTranslate(introTile3.transform, CGFloat(xOffsets[2]), CGFloat(yOffsets[2]))
+        introTile3.transform = CGAffineTransformScale(introTile3.transform, CGFloat(scales[2]), CGFloat(scales[2]))
+        introTile3.transform = CGAffineTransformRotate(introTile3.transform, CGFloat(Double(rotations[2]) * M_PI / 180))
+        
+        introTile4.transform = CGAffineTransformTranslate(introTile4.transform, CGFloat(xOffsets[3]), CGFloat(yOffsets[3]))
+        introTile4.transform = CGAffineTransformScale(introTile4.transform, CGFloat(scales[3]), CGFloat(scales[3]))
+        introTile4.transform = CGAffineTransformRotate(introTile4.transform, CGFloat(Double(rotations[3]) * M_PI / 180))
+        
+        introTile5.transform = CGAffineTransformTranslate(introTile5.transform, CGFloat(xOffsets[4]), CGFloat(yOffsets[4]))
+        introTile5.transform = CGAffineTransformScale(introTile5.transform, CGFloat(scales[4]), CGFloat(scales[4]))
+        introTile5.transform = CGAffineTransformRotate(introTile5.transform, CGFloat(Double(rotations[4]) * M_PI / 180))
+        
+        introTile6.transform = CGAffineTransformTranslate(introTile6.transform, CGFloat(xOffsets[5]), CGFloat(yOffsets[5]))
+        introTile6.transform = CGAffineTransformScale(introTile6.transform, CGFloat(scales[5]), CGFloat(scales[5]))
+        introTile6.transform = CGAffineTransformRotate(introTile6.transform, CGFloat(Double(rotations[5]) * M_PI / 180))
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.contentSize = CGSize(width:320, height:1136)
         scrollView.delegate = self
         
-        
+        initialIntroOffset()
         
         // Do any additional setup after loading the view.
     }

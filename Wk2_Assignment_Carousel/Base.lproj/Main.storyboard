@@ -574,7 +574,7 @@
                     <connections>
                         <outlet property="scrollView" destination="WVH-GR-axg" id="C5z-qQ-KXr"/>
                         <outlet property="settingsImage" destination="MQC-zW-ILS" id="07P-6y-g3a"/>
-                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="signOutSegue" modalTransitionStyle="crossDissolve" id="n4S-g0-MMb"/>
+                        <segue destination="vT0-jb-iXm" kind="modal" identifier="signOutSegue" modalTransitionStyle="flipHorizontal" id="ehB-ds-ls9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J25-JT-OCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -694,7 +694,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="yrp-bW-kfh"/>
-        <segue reference="BhJ-I9-RvN"/>
+        <segue reference="AYs-1Q-Iz2"/>
     </inferredMetricsTieBreakers>
 </document>

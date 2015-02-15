@@ -41,7 +41,7 @@ class signInViewController: UIViewController, UIAlertViewDelegate, UIScrollViewD
         originalInputFormsCenter = inputFormsContainer.center.y
         screenHeight = screen.size.height
         
-        UIView.animateWithDuration(0.8, animations: { () -> Void in
+        UIView.animateWithDuration(0.5, animations: { () -> Void in
             self.inputFormsContainer.alpha = 1
             self.inputFormsContainer.transform = CGAffineTransformMakeScale(1, 1)
         })
